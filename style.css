@@ -52,6 +52,10 @@ header {
     color: aliceblue;
     font-size: x-large;
     font-family: 'Haettenschweiler';
+    margin: auto;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 footer {
