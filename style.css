@@ -8,20 +8,18 @@
     padding:0;
 }
 
-body {
-    align-items: center;
-    text-align: center;
-    font-size: 1em;
-}
 
 h1  {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
     font-size: 5em;
     font-family: 'Haettenschweiler';
     }
 
 p {
     font-family: 'Roboto', sans-serif;
-    position:relative;
     color: rgba(240, 248, 255, 0.826);
 }
 
@@ -30,8 +28,14 @@ p {
     background: linear-gradient(90deg, rgba(77,0,159,1) 0%, rgba(9,9,121,1) 9%, rgba(147,6,11,1) 100%);
 }
 
-.sneaker {
-    max-width: 23%;
+.sneaker img {
+    margin: auto;
+    display: flex;
+    max-width: 13em;
+    justify-content: center;
+    align-content: center;
+    -webkit-filter: drop-shadow(10px 10px 10px #000000);
+    filter: drop-shadow(10px 10px 10px #000000);
 }
 
 .jumpman {
@@ -39,6 +43,7 @@ p {
     max-width: 8%;
     fill: white;
     align-content: left;
+    margin: auto;
 }
 
 header {
@@ -55,9 +60,9 @@ footer {
 }
 
 .myButton {
-	background-color:#383538;
+	background-color:#000000;
 	border-radius:28px;
-	border:1px solid #000000;
+	border:1px solid #1d1d1d;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -66,11 +71,26 @@ footer {
 	padding:16px 40%;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    -webkit-filter: drop-shadow(10px 10px 10px #000000);
+    filter: drop-shadow(10px 10px 10px #000000);
 }
+
 .myButton:hover {
 	background-color:#0f0f0f;
 }
 .myButton:active {
 	position:relative;
 	top:1px;
+    -webkit-filter: drop-shadow(6px 6px 6px #000000);
+    filter: drop-shadow(6px 6px 6px #000000);
+}
+
+.blabla {
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
 }
