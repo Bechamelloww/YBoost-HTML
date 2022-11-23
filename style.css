@@ -42,11 +42,30 @@ p {
 .jumpman {
     display: inline-flex;
     max-width: 2.5em;
-    fill: white;
     align-content: left;
     margin: auto;
 }
 
+nav .navlist {
+    list-style: none;
+
+}
+
+nav .navlist li {
+    display: inline-block;
+}
+
+nav .navlist li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav .navlist li a:hover {
+    color: rgb(132, 0, 0);
+  }
 
 header {
     background-color: black;
