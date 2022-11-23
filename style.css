@@ -1,0 +1,18 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: 'Haettenschweiler';
+    src: url("Ressources/haettenschweiler_[fr.allfont.net].ttf");
+}
+
+    h1  {
+        font-weight: bolder;
+        position: relative;
+    }
+
+.degrade-diagonal {
+    background: linear-gradient(to top right, rgb(123, 0, 255), rgb(171, 57, 76));
+}
