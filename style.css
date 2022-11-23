@@ -35,8 +35,8 @@ p {
     max-width: 13em;
     justify-content: center;
     align-content: center;
-    -webkit-filter: drop-shadow(10px 10px 10px #000000);
-    filter: drop-shadow(10px 10px 10px #000000);
+    -webkit-filter: drop-shadow(20px 20px 20px #000000);
+    filter: drop-shadow(20px 20px 20px #000000);
 }
 
 .jumpman {
@@ -116,7 +116,11 @@ footer {
 }
 
 .blabla {
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: start;
     font-size: 1em;
 }
 
